@@ -119,12 +119,14 @@ header{
 	height: 250px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	background-position: center;
 	background-size: cover;
 	float: left;	
 }
 
 .port-box:nth-child(1){
 	background-image: url(img2/sketch.jpg);
+
 
 }
 .port-box:nth-child(2){
@@ -283,6 +285,7 @@ header{
 }
 .form2 p{
 	color: #000000;
+	text-align: left
 }
 
 .tell{
@@ -459,10 +462,12 @@ footer p{
 		margin: 0 auto;
 		padding-top: 90px;
 		padding-bottom: 90px;
-			
 	}
 	.pro-img{
 		padding-bottom: 20px;
+	}
+	.pro-text{
+		width: auto;
 	}
 	.pro-text h2{
 		text-align: center;
@@ -486,6 +491,9 @@ footer p{
 		float: none;
 	}
 	.form h2,p{
+		text-align: center;
+	}
+	.form2 p{
 		text-align: center;
 	}
 	.sns{
